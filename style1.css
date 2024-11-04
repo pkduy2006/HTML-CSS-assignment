@@ -1,119 +1,131 @@
-html {
-    font-family: Verdana, Arial, sans-serif;
-}
+/*@font-face {*/
+/*  font-family: Noto Sans;*/
+/*  src: url("NotoSans-Regular.ttf") format("truetype");*/
+/*}*/
 
-html:focus-within {
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+  @font-face {
+    font-family : "Noto Sans";
+    src: url("NotoSans-Regular.ttf") format("truetype");
+  }
+  /*background-color: #6490c2;*/
 }
 
 body {
-    width: 60%;
-    margin: auto;
+  width: 60%;
+  margin: auto;
+  font-family: Noto Sans, Verdana, Arial, sans-serif;
 }
 
 header {
-    display: flex;
-    background-color: aqua;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+  display: flex;
+  background-color: aqua;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .logo {
-    padding: 1rem 2rem 1rem 2rem;
-    margin-right: 30%;
-    background-color: grey;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-right: 30%;
+  background-color: grey;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 a {
-    padding: 1rem 2rem 1rem 2rem;
-    text-decoration: none;
-    color: red;
-    width: calc(100%/3);
+  padding: 1rem 2rem 1rem 2rem;
+  text-decoration: none;
+  color: #003161;
+  width: calc(100% / 3);
 }
 
 a:hover {
-    background-color: burlywood;
+  background-color: burlywood;
 }
 
 main {
-    background-image: url("Snow.svg");
+  background-image: url('Snow.svg');
 }
 
 .company-description {
-    padding: 10rem 0 10rem 0;
-    text-align: center;
-    color: white;
+  padding: 10rem 0 10rem 0;
+  text-align: center;
+  color: #006A67;
 }
 
 .text-description {
-    width: 60%;
-    margin: 0 10rem 0 10rem;
+  width: 60%;
+  margin: 0 10rem 0 10rem;
 }
 
 .best-product {
-    color: white;
-    margin-left: 2rem;
-    padding-top: 5rem;
+  color: #006A67;
+  margin-left: 2rem;
+  padding-top: 5rem;
 }
 
 section {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 article {
-    background-color: white;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: calc(100%/3);
+  background-color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: calc(100% / 3);
 }
 
 figure {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .product1 {
-    margin-left: 1rem;
-    margin-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .product2 {
-    margin-left: 1rem;
-    margin-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .product3 {
-    margin-left: 1rem;
-    margin-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .all {
-    margin: 5rem 2rem 0 2rem;
-    color: white;
-    display: flex;
-    height: 50rem;
-    padding-top: 5rem;
+  margin: 5rem 2rem 0 2rem;
+  color: #006A67;
+  display: flex;
+  height: 50rem;
+  padding-top: 5rem;
 }
 
 .specific-information {
-    font-style: oblique;
+  font-style: oblique;
 }
 
 .phone {
-    display: flex;
+  display: flex;
 }
 
 .email {
-    display: flex;
+  display: flex;
 }
 
 .contact-details {
-    margin-right: 15%;
+  margin-right:15%;
+}
+
+
+h6 {
+  display: none;
 }
